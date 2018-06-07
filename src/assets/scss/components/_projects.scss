@@ -1,0 +1,27 @@
+@keyframes imageCarousel{
+    0%{
+        background-image: url('../../images/life-inbalance-dashboard.png');
+    }
+    50%{
+        background-image: url('../../images/life-inbalance-workout.png');
+    }
+    100%{
+        background-image: url('../../images/life-inbalance-dashboard.png');
+    }
+}
+.life-inbalanceimages{
+    animation: imageCarousel 10s infinite cubic-bezier(0.23, 1, 0.320, 1);
+    width: 407px;
+    height: 198px;
+    background-size: cover;
+    background-position: center;
+    // width: 100%;
+    margin: 1rem auto;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // img{
+    //     width: 200px;
+    // }
+}

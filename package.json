@@ -1,5 +1,6 @@
 {
   "name": "steves-portfolio",
+  "main": "server/server.js",
   "description": "Gatsby Starter - Dimension by HTML5 UP",
   "version": "1.0.0",
   "author": "Hunter Chang",
@@ -25,7 +26,6 @@
     "gatsby"
   ],
   "license": "MIT",
-  "main": "server/server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChangoMan/gatsby-starter-dimension.git"
@@ -42,5 +42,6 @@
   "bugs": {
     "url": "https://github.com/ChangoMan/gatsby-starter-dimension/issues"
   },
+  "proxy": "http://localhost:3377",
   "devDependencies": {}
 }
