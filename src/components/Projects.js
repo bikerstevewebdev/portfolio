@@ -1,15 +1,10 @@
 import React from 'react'
-import db from '../images/life-inbalance-dashboard.png'
-import workout from '../images/life-inbalance-workout.png'
 
 function Projects(props){
     return(
         <article id="work" className={`${props.article === 'work' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
-          {/* <span className="image main"><img src={pic02} alt="" /></span> */}
           <div className="life-inbalanceimages">
-            {/* <img src={db} alt="Balanced Life Dashboard"/>
-            <img src={workout} alt="Balanced Life Example Workout"/> */}
           </div>
           <h3>Balanced LIFE</h3>
           <p>Personally Developed Health and Fitness app</p>
